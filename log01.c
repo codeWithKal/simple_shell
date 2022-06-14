@@ -4,6 +4,7 @@
  * @sev: ptr to shell env var link list
  * Return: 1 in success, 0 in fail
  */
+
 int add_log(sev_t *sev)
 {
   if (add_node(&sev->log, NULL, _strdup(sev->input, &sev->mem)))
@@ -14,6 +15,7 @@ int add_log(sev_t *sev)
     }
   return (0);
 }
+
 /**
  * write_log - write the current sessions' log to a file
  * @sev: ptr to the shell env var

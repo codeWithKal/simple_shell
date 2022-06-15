@@ -3,6 +3,7 @@
 #define _SHELLVAR_H_
 #include "shell.h"
 /**
+ *
  * struct sev_s - shell env vars
  * @skywalker: flag to continue or not continue with shell
  * @log: ptr to log link list for the current shell session

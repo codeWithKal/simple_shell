@@ -47,6 +47,6 @@ typedef struct sev_s
   char *shell_d;
   char *arg0;
 
-  sev_t;
+}sev_t;
 #endif /* _SHELLVAR_H_ */
   
